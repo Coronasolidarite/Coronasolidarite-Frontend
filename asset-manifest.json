@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/Coronasolidarite-Frontend/static/css/main.d1b05096.chunk.css",
-    "main.js": "/Coronasolidarite-Frontend/static/js/main.51a48fe0.chunk.js",
-    "main.js.map": "/Coronasolidarite-Frontend/static/js/main.51a48fe0.chunk.js.map",
+    "main.css": "/Coronasolidarite-Frontend/static/css/main.d28fc25b.chunk.css",
+    "main.js": "/Coronasolidarite-Frontend/static/js/main.11a6377f.chunk.js",
+    "main.js.map": "/Coronasolidarite-Frontend/static/js/main.11a6377f.chunk.js.map",
     "runtime-main.js": "/Coronasolidarite-Frontend/static/js/runtime-main.57a2246b.js",
     "runtime-main.js.map": "/Coronasolidarite-Frontend/static/js/runtime-main.57a2246b.js.map",
-    "static/js/2.523b4e7b.chunk.js": "/Coronasolidarite-Frontend/static/js/2.523b4e7b.chunk.js",
-    "static/js/2.523b4e7b.chunk.js.map": "/Coronasolidarite-Frontend/static/js/2.523b4e7b.chunk.js.map",
+    "static/js/2.3492d2cd.chunk.js": "/Coronasolidarite-Frontend/static/js/2.3492d2cd.chunk.js",
+    "static/js/2.3492d2cd.chunk.js.map": "/Coronasolidarite-Frontend/static/js/2.3492d2cd.chunk.js.map",
     "index.html": "/Coronasolidarite-Frontend/index.html",
-    "precache-manifest.065e958ca58591dbd67676bfac0d0b38.js": "/Coronasolidarite-Frontend/precache-manifest.065e958ca58591dbd67676bfac0d0b38.js",
+    "precache-manifest.af8aee2d8d272d2fc6e95f13589cbd93.js": "/Coronasolidarite-Frontend/precache-manifest.af8aee2d8d272d2fc6e95f13589cbd93.js",
     "service-worker.js": "/Coronasolidarite-Frontend/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/Coronasolidarite-Frontend/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.523b4e7b.chunk.js.LICENSE.txt": "/Coronasolidarite-Frontend/static/js/2.523b4e7b.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Coronasolidarite-Frontend/static/media/logo.5d5d9eef.svg"
+    "static/css/main.d28fc25b.chunk.css.map": "/Coronasolidarite-Frontend/static/css/main.d28fc25b.chunk.css.map",
+    "static/js/2.3492d2cd.chunk.js.LICENSE.txt": "/Coronasolidarite-Frontend/static/js/2.3492d2cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.57a2246b.js",
-    "static/js/2.523b4e7b.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.51a48fe0.chunk.js"
+    "static/js/2.3492d2cd.chunk.js",
+    "static/css/main.d28fc25b.chunk.css",
+    "static/js/main.11a6377f.chunk.js"
   ]
 }
