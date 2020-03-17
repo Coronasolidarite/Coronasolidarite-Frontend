@@ -1,0 +1,8 @@
+.csf-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background: #44bb88;
+  color: white;
+}
