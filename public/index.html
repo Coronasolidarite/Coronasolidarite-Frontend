@@ -24,11 +24,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Corona Solidarité</title>
     <link
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
     />
+    <script>
+      function sheetLoaded(spreadsheetdata) {
+        localStorage.setItem("listings", JSON.stringify(spreadsheetdata));
+      }
+    </script>
+    <script src="https://spreadsheets.google.com/feeds/cells/1PwanVpnZZrZdjdCAf4ZocXXH7FaofGlIE2aJDzfjqXA/od6/public/values?alt=json-in-script&callback=sheetLoaded"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
