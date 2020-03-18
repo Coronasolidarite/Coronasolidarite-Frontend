@@ -1,20 +1,18 @@
 import React, { useMemo, useState } from "react";
 import { getListings } from "../../services";
-import { Table, Container, Select } from "semantic-ui-react";
+import { Table, Container, Select, Message } from "semantic-ui-react";
 import { needOptions, locationOptions } from "../../config";
 
 export default function Listings() {
   const listings = useMemo(getListings);
-  const [page, setPage] = useState(0);
   const [location, setLocation] = useState();
   const [need, setNeed] = useState();
   const list = useMemo(
     () =>
       listings.filter(([, , offer, offeredLocation, ,]) => {
-        console.log(offer, offeredLocation, location, need);
         return (
           (!need || offer.includes(need)) &&
-          (!location || location.includes(offeredLocation))
+          (!location || offeredLocation.includes(location))
         );
       }),
     [listings, location, need]
@@ -22,6 +20,28 @@ export default function Listings() {
   return (
     <Container>
       <h1>Liste des offres d'aide</h1>
+      <p>
+        Les personnes que vous trouvez dans cette liste ont aimablement accepté
+        d'offrir leur aide.
+        <br />
+        Vous pouvez parcourir la liste sur cette page ou filtrer les entrées en
+        utilisant la barre de recherche ci-dessous.
+        <br />
+        Si nécessaire, vous pouvez contacter directement votre helper via l'option de contact fournie.
+        <br />
+        Nous vous rappelons qu'afin de vous protéger, mais également afin de
+        protéger les personnes au grand coeur qui offrent leur aide, evitez les
+        contacts physiques directs, les déplacements non-nécessaires et
+        privilégiez les communications ‘virtuelles’ telles que le telephone,
+        mail, VoIP et messagerie instantanée (Skype/Discord/Messenger)
+        <br />
+      </p>
+      <Message>
+        Si vous avez des préoccupations telles que la modification ou la
+        suppression de vos données, veuillez contacter
+        coronasolidarite@gmail.com (idéalement via l'option de contact que vous
+        avez donnée)
+      </Message>
       <div className="csf-listings-filter">
         <Select
           placeholder="Selectionnez vos besoin"
@@ -36,17 +56,21 @@ export default function Listings() {
       </div>
       <Table>
         <Table.Header>
-          <Table.HeaderCell>Nom</Table.HeaderCell>
-          <Table.HeaderCell>Offre d’aide</Table.HeaderCell>
-          <Table.HeaderCell>Arrondissement(s) / localisation</Table.HeaderCell>
-          <Table.HeaderCell>Option(s) de contact </Table.HeaderCell>
-          <Table.HeaderCell>Informations supplémentaires</Table.HeaderCell>
+          <Table.Row>
+            <Table.HeaderCell>Nom</Table.HeaderCell>
+            <Table.HeaderCell>Offre d’aide</Table.HeaderCell>
+            <Table.HeaderCell>
+              Arrondissement(s) / localisation
+            </Table.HeaderCell>
+            <Table.HeaderCell>Option(s) de contact </Table.HeaderCell>
+            <Table.HeaderCell>Informations supplémentaires</Table.HeaderCell>
+          </Table.Row>
         </Table.Header>
         <Table.Body>
           {list.map(l => (
-            <Table.Row>
+            <Table.Row key={l[4]}>
               {l.map(e => (
-                <Table.Cell>{e}</Table.Cell>
+                <Table.Cell key={e}>{e}</Table.Cell>
               ))}
             </Table.Row>
           ))}
