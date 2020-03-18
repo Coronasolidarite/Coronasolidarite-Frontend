@@ -15,8 +15,8 @@ export default function Legal() {
 
       <h1>Responsabilité vis à vis du contenu</h1> 
       <p>
-        Corona Solidarité ne se tient aucunement responsable compte tenu de la nature des services offert par les tiers ni
-        sur l'enquête des circonstance qui indiquent une activité illégale. Nous ne sommes pas tenus de surveiller les informations
+        Corona Solidarité ne se tient en aucuns cas responsable compte tenu de la nature des services offert par les tiers ni
+        sur l'enquête des circonstances qui indiquent une activité illégale. Nous ne sommes pas tenus de surveiller les informations
         de tiers transmises ou stockées ni d'enquêter sur les circonstances qui indiquent une activité illégale.
       </p>
 
@@ -33,7 +33,7 @@ export default function Legal() {
         Les destinataires de ces données sont : Corona Solidarité et Google (Notre hébergeur) <br />
         La durée de conservation des données est d’une durée indéterminée <br />
         Vous bénéficiez d’un droit d’accès, de rectification, de portabilité, d’effacement de celles-ci ou une limitation du traitement.<br />
-        Vous pouvez vous opposer au traitement des données vous concernant et disposez du droit de retirer votre consentement à tout moment en vous adressant à nous directement (cf <a href="/contact">Contactez-nous</a>) <br />
+        Vous pouvez vous opposer au traitement des données vous concernant et disposez du droit de retirer votre consentement à tout moment en vous adressant à nous directement (cf - <a href="mailto:coronasolidarite@gmail.com">Contactez-nous</a>) <br />
         Vous avez la possibilité d’introduire une réclamation auprès d’une autorité de contrôle. ».
       </p>
 

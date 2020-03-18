@@ -20,14 +20,13 @@ export default function() {
         <h1>Un réseau d'aide au voisinage à Paris</h1>
         <p>
           Compte tenu des nouvelles dispositions gouvernementales face au
-          coronavirus à Paris et dans toute la France, tous les déplacement à
+          coronavirus à Paris et dans toute la France, tous les déplacements à
           travers le territoire sont fortement réduits. En ces temps difficiles
           l’esprit de solidarité est primordial et nous devons tous en tant que
           citoyens penser aux plus nécessiteux. Cette page a pour but de mettre
           en contact les personnes ayant besoin d’aide dans divers domaines
-          (courses, conseil, accompagnement,...) bien entendu dans le respect
-          des consignes de sécurité et dans le respect de l’esprit de
-          solidarité.N'hésitez pas à partager ce site aussi bien à ceux qui
+          (courses, conseil, soutien moral,...) bien entendu dans le respect
+          des consignes de sécurité. N'hésitez pas à partager ce site aussi bien à ceux qui
           seraient susceptibles d’aider la communauté mais aussi qu’à ceux qui
           en auraient besoin !
         </p>
@@ -66,12 +65,13 @@ export default function() {
         </Segment>
 
         <p>
-          Nous tenons à vous tenir informés que vous seuls êtes tenus
+          Nous tenons à vous informer que vous seuls êtes tenus
           responsables de l'utilisation de cette plateforme. Veuillez faire
-          attention - vous êtes en contact avec des étrangers. La sécurité, la
+          attention vous êtes en contact avec des étrangers. La sécurité, la
           fiabilité et la qualité des prestataires ne peuvent être garanties.
           Veillez également à bien respecter les consignes de sécurité
-          actuellement mises en place !
+          actuellement mises en place. Evitez donc par conséquent tout contact direct.
+          Privilegiez les moyens tels que le téléphone, mail ou messagerie instantanné/VoIP (Skype, Discord, Messenger) !
         </p>
 
         <Message>

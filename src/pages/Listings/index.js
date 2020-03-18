@@ -24,12 +24,12 @@ export default function Listings() {
       <h1>Liste des offres d'aide</h1>
       <div className="csf-listings-filter">
         <Select
-          placeholder="Select your need"
+          placeholder="Selectionnez vos besoin"
           options={needOptions}
           onChange={(l, { value }) => setNeed(value)}
         />
         <Select
-          placeholder="Select your location"
+          placeholder="Indiquez votre localisation"
           options={locationOptions}
           onChange={(l, { value }) => setLocation(value)}
         />
@@ -39,8 +39,8 @@ export default function Listings() {
           <Table.HeaderCell>Nom</Table.HeaderCell>
           <Table.HeaderCell>Offre d’aide</Table.HeaderCell>
           <Table.HeaderCell>Arrondissement(s) / localisation</Table.HeaderCell>
-          <Table.HeaderCell>Option (s) de contact </Table.HeaderCell>
-          <Table.HeaderCell>Information supplémentaire</Table.HeaderCell>
+          <Table.HeaderCell>Option(s) de contact </Table.HeaderCell>
+          <Table.HeaderCell>Informations supplémentaires</Table.HeaderCell>
         </Table.Header>
         <Table.Body>
           {list.map(l => (
