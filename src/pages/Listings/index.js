@@ -1,12 +1,37 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import { getListings } from "../../services";
-import { Table, Container } from "semantic-ui-react";
+import { Table, Container, Select } from "semantic-ui-react";
+import { needOptions, locationOptions } from "../../config";
 
 export default function Listings() {
   const listings = useMemo(getListings);
+  const [page, setPage] = useState(0);
+  const [location, setLocation] = useState();
+  const [need, setNeed] = useState();
+  const list = useMemo(
+    () =>
+      listings.filter(
+        ([, offer, offeredLocation, ,]) =>
+          (!need || need === offer) &&
+          (!location || location === offeredLocation)
+      ),
+    [listings, location, need]
+  );
   return (
     <Container>
       <h1>Listings</h1>
+      <div className="csf-listings-filter">
+        <Select
+          placeholder="Select your need"
+          options={needOptions}
+          onChange={(l, { value }) => setNeed(value)}
+        />
+        <Select
+          placeholder="Select your location"
+          options={locationOptions}
+          onChange={(l, { value }) => setLocation(value)}
+        />
+      </div>
       <Table>
         <Table.Header>
           <Table.HeaderCell>Nom</Table.HeaderCell>
@@ -16,7 +41,7 @@ export default function Listings() {
           <Table.HeaderCell>Information supplémentaire</Table.HeaderCell>
         </Table.Header>
         <Table.Body>
-          {listings.map(l => (
+          {list.map(l => (
             <Table.Row>
               {l.map(e => (
                 <Table.Cell>{e}</Table.Cell>
