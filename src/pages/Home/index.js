@@ -67,7 +67,14 @@ export default function() {
         <Message>
         Dans le but de venir en aide à un maximum de personnes en difficultés. Si vous disposez d’un moyen de relayer notre plateforme
         ou si vous menez actuellement un projet solidaire en relation avec la situation actuel, n'hésitez pas à nous contacter. <br/><br/>
+        
         <i>L’union fait la force ! </i>
+
+        <p>
+        Aidez-nous à améliorer la plateforme en nous partageant vos commentaires,
+        vos avis ou bien vos interrogations. Nous veillerons à vous répondre personnellement :^)
+        </p>
+
         </Message>
         <div className="csf-index-contact">
           <Button secondary as="a" href="mailto:coronasolidarite@gmail.com">

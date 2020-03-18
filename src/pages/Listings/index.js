@@ -6,11 +6,11 @@ export default function Listings() {
   const listings = useMemo(getListings);
   return (
     <Container>
-      <h1>Listings</h1>
+      <h1>Liste des offres d'aide</h1>
       <Table>
         <Table.Header>
           <Table.HeaderCell>Nom</Table.HeaderCell>
-          <Table.HeaderCell>District</Table.HeaderCell>
+          <Table.HeaderCell>Arrondissement</Table.HeaderCell>
         </Table.Header>
         <Table.Body>
           {listings.map(l => (
