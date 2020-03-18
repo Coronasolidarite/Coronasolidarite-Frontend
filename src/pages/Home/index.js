@@ -17,7 +17,7 @@ export default function() {
   return (
     <Container>
       <div className="csf-index">
-        <h1>Solidarité citoyenne</h1>
+        <h1>Un réseau d'aide au voisinage à Paris</h1>
         <p>
         Compte tenu des nouvelles dispositions gouvernementales face au coronavirus à Paris et dans toute la France,
         tous les déplacement à travers le territoire sont fortement réduits. En ces temps difficiles l’esprit de solidarité
@@ -65,12 +65,9 @@ export default function() {
         </p>
 
         <Message>
-          Um so viele Menschen wie möglich von der Idee, füreinander da zu sein,
-          anzustecken, suchen wir "erfolgreiche" Vermittlungen, bei denen dieses
-          Bürgerportal helfen konnte. Es muss nichts Spektakuläres sein, denn
-          auch kleine Dinge können eine große Hilfe sein. Da wir nicht
-          nachverfolgen, wer nun schlussendlich wem geholfen hat: meldet Euch
-          gerne per Mail, da es diesbezüglich Medienanfragen gibt.
+        Dans le but de venir en aide à un maximum de personnes en difficultés. Si vous disposez d’un moyen de relayer notre plateforme
+        ou si vous menez actuellement un projet solidaire en relation avec la situation actuel, n'hésitez pas à nous contacter. <br/><br/>
+        <i>L’union fait la force ! </i>
         </Message>
         <div className="csf-index-contact">
           <Button secondary as="a" href="mailto:coronasolidarite@gmail.com">
