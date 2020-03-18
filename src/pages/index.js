@@ -1,4 +1,4 @@
-export { default as Index } from "./Index";
+export { default as Index } from "./Home";
 export { default as Listings } from "./Listings";
 export { default as Legal } from "./Legal";
 export { default as Contact } from "./Contact";
