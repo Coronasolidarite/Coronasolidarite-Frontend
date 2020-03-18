@@ -1,5 +1,5 @@
 import React from "react";
-import { Index, Listings, Contact, Legal, TOU } from "./pages";
+import { Index, Listings, Legal, TOU } from "./pages";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Header, Footer } from "./components";
 
