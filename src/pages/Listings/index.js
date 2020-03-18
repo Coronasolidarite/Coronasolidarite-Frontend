@@ -10,16 +10,18 @@ export default function Listings() {
   const [need, setNeed] = useState();
   const list = useMemo(
     () =>
-      listings.filter(
-        ([, offer, offeredLocation, ,]) =>
-          (!need || need === offer) &&
-          (!location || location === offeredLocation)
-      ),
+      listings.filter(([, , offer, offeredLocation, ,]) => {
+        console.log(offer, offeredLocation, location, need);
+        return (
+          (!need || offer.includes(need)) &&
+          (!location || location.includes(offeredLocation))
+        );
+      }),
     [listings, location, need]
   );
   return (
     <Container>
-      <h1>Listings</h1>
+      <h1>Liste des offres d'aide</h1>
       <div className="csf-listings-filter">
         <Select
           placeholder="Select your need"

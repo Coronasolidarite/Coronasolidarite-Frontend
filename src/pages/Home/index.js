@@ -17,7 +17,7 @@ export default function() {
   return (
     <Container>
       <div className="csf-index">
-        <h1>Index page</h1>
+        <h1>Un réseau d'aide au voisinage à Paris</h1>
         <p>
           Compte tenu des nouvelles dispositions gouvernementales face au
           coronavirus à Paris et dans toute la France, tous les déplacement à
@@ -34,31 +34,31 @@ export default function() {
 
         <Segment placeholder>
           <Grid columns={2} stackable textAlign="center">
-            <Divider vertical>Or</Divider>
+            <Divider vertical>Ou</Divider>
 
             <Grid.Row verticalAlign="middle">
               <Grid.Column>
                 <Header icon>
                   <Icon name="search" />
-                  Find a Helper
+                  Recheche d'assisance
                 </Header>
 
                 <Button primary as={Link} to="/listings">
-                  Get Help
+                  Demander de l’aide
                 </Button>
               </Grid.Column>
 
               <Grid.Column>
                 <Header icon>
                   <Icon name="world" />
-                  Solidarité
+                  Offrir de l'assistance
                 </Header>
                 <Button
                   primary
                   as="a"
                   href="https://forms.gle/7Qux5zpG9FiioFUy9"
                 >
-                  Offer Help
+                  Remplir le formulaire
                 </Button>
               </Grid.Column>
             </Grid.Row>
@@ -66,22 +66,30 @@ export default function() {
         </Segment>
 
         <p>
-          Bei der Nutzung dieses Angebots handelst du eigenverantwortlich. Sei
-          bitte vorsichtig – Du stehst im Kontakt zu Fremden. Die Sicherheit,
-          Zuverlässigkeit und Qualität der Anbieter kann nicht garantiert
-          werden.
+          Nous tenons à vous tenir informés que vous seuls êtes tenus
+          responsables de l'utilisation de cette plateforme. Veuillez faire
+          attention - vous êtes en contact avec des étrangers. La sécurité, la
+          fiabilité et la qualité des prestataires ne peuvent être garanties.
+          Veillez également à bien respecter les consignes de sécurité
+          actuellement mises en place !
         </p>
+
         <Message>
-          Um so viele Menschen wie möglich von der Idee, füreinander da zu sein,
-          anzustecken, suchen wir "erfolgreiche" Vermittlungen, bei denen dieses
-          Bürgerportal helfen konnte. Es muss nichts Spektakuläres sein, denn
-          auch kleine Dinge können eine große Hilfe sein. Da wir nicht
-          nachverfolgen, wer nun schlussendlich wem geholfen hat: meldet Euch
-          gerne per Mail, da es diesbezüglich Medienanfragen gibt.
+          Dans le but de venir en aide à un maximum de personnes en difficultés.
+          Si vous disposez d’un moyen de relayer notre plateforme ou si vous
+          menez actuellement un projet solidaire en relation avec la situation
+          actuel, n'hésitez pas à nous contacter. <br />
+          <br />
+          <i>L’union fait la force ! </i>
+          <p>
+            Aidez-nous à améliorer la plateforme en nous partageant vos
+            commentaires, vos avis ou bien vos interrogations. Nous veillerons à
+            vous répondre personnellement :^)
+          </p>
         </Message>
         <div className="csf-index-contact">
           <Button secondary as="a" href="mailto:coronasolidarite@gmail.com">
-            Contact Us
+            Contactez-nous
           </Button>
         </div>
       </div>

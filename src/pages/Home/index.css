@@ -8,6 +8,10 @@
   margin-top: 8em;
 }
 
+.message{
+  text-align: center;
+}
+
 @media (max-width: 720px) {
   .csf-index {
     padding: 0 5%;

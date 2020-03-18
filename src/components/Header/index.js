@@ -10,7 +10,7 @@ export default function Header() {
         <Link to="/" className="csf-header-title">
           Corona Solidarité
         </Link>
-        <span>Help your neighbors</span>
+        <span>Stay & Save</span>
       </div>
     </div>
   );

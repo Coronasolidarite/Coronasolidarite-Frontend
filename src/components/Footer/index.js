@@ -5,12 +5,12 @@ export default function Footer() {
   return (
     <div className="csf-footer">
       <div className="csf-footer-links">
-        <Link to="/contact">Contact</Link>
-        <Link to="/legal">Legal</Link>
-        <Link to="/tou">Terms of use</Link>
+        <a href="mailto:coronasolidarite@gmail.com">Contactez-nous</a>
+        <Link to="/legal">Mentions légales</Link>
+        <Link to="/tou">Conditions d'utilisation</Link>
       </div>
       <div>
-        <p>Stay save - 2020 Corona Solidarité</p>
+        <p>Stay & Save - 2020 Corona Solidarité</p>
       </div>
     </div>
   );

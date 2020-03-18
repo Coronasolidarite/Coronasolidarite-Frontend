@@ -17,9 +17,6 @@ function App() {
           <Route path="/listings">
             <Listings />
           </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
           <Route path="/legal">
             <Legal />
           </Route>
