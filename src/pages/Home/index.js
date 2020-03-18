@@ -17,7 +17,7 @@ export default function() {
   return (
     <Container>
       <div className="csf-index">
-        <h1>Index page</h1>
+        <h1>Solidarité citoyenne</h1>
         <p>
         Compte tenu des nouvelles dispositions gouvernementales face au coronavirus à Paris et dans toute la France,
         tous les déplacement à travers le territoire sont fortement réduits. En ces temps difficiles l’esprit de solidarité
@@ -30,27 +30,27 @@ export default function() {
 
         <Segment placeholder>
           <Grid columns={2} stackable textAlign="center">
-            <Divider vertical>Or</Divider>
+            <Divider vertical>Ou</Divider>
 
             <Grid.Row verticalAlign="middle">
               <Grid.Column>
                 <Header icon>
                   <Icon name="search" />
-                  Find a Helper
+                   Recheche d'assisance
                 </Header>
 
                 <Button primary as={Link} to="/listings">
-                  Get Help
+                  Demander de l’aide
                 </Button>
               </Grid.Column>
 
               <Grid.Column>
                 <Header icon>
                   <Icon name="world" />
-                  Solidarité
+                  Offrir de l'assistance
                 </Header>
                 <Button primary as={Link}>
-                  Offer Help
+                  Remplir le formulaire
                 </Button>
               </Grid.Column>
             </Grid.Row>
@@ -58,11 +58,12 @@ export default function() {
         </Segment>
 
         <p>
-          Bei der Nutzung dieses Angebots handelst du eigenverantwortlich. Sei
-          bitte vorsichtig – Du stehst im Kontakt zu Fremden. Die Sicherheit,
-          Zuverlässigkeit und Qualität der Anbieter kann nicht garantiert
-          werden.
+        Nous tenons à vous tenir informés que vous seuls êtes tenus responsables de l'utilisation de cette plateforme.
+        Veuillez faire attention - vous êtes en contact avec des étrangers. La sécurité, la fiabilité et la qualité des 
+        prestataires ne peuvent être garanties. Veillez également à bien respecter les consignes de sécurité actuellement 
+        mises en place ! 
         </p>
+
         <Message>
           Um so viele Menschen wie möglich von der Idee, füreinander da zu sein,
           anzustecken, suchen wir "erfolgreiche" Vermittlungen, bei denen dieses
@@ -73,7 +74,7 @@ export default function() {
         </Message>
         <div className="csf-index-contact">
           <Button secondary as="a" href="mailto:coronasolidarite@gmail.com">
-            Contact Us
+            Contactez-nous
           </Button>
         </div>
       </div>
