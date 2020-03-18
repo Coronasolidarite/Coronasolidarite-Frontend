@@ -19,12 +19,13 @@ export default function() {
       <div className="csf-index">
         <h1>Index page</h1>
         <p>
-          Mit der Zeit steigen die Zahlen der Infizierten und Hilfsbedürftigen
-          an. Menschen, die nicht auf Familie oder Freunde zurückgreifen können,
-          insbesondere die, die zu einer Risikogruppe gehören, sind auf fremde
-          Hilfe angewiesen! Diese Seite erleichtert eine "erweiterte
-          Nachbarschaftshilfe" in Berlin. Teile diese Seite, um deinen
-          Mitmenschen zu helfen! #keinepanik #unleashhelp
+        Compte tenu des nouvelles dispositions gouvernementales face au coronavirus à Paris et dans toute la France,
+        tous les déplacement à travers le territoire sont fortement réduits. En ces temps difficiles l’esprit de solidarité
+        est primordial et nous devons tous en tant que citoyens penser aux plus nécessiteux. Cette page a pour but de mettre 
+        en contact les personnes ayant besoin d’aide dans divers domaines (courses, conseil, accompagnement,...) bien entendu dans le 
+        respect des consignes de sécurité et dans le respect de l’esprit de solidarité.N'hésitez pas à partager ce site aussi 
+        bien à ceux qui seraient susceptibles d’aider la communauté mais aussi qu’à ceux qui en auraient besoin !
+
         </p>
 
         <Segment placeholder>
