@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Important Files
+
+- /public: all public files (index.html, favicons, ...)
+- /src: source code
+  - /pages: all pages
+  - /components: all reusable react components
+  - /services: functions that will provide some service
+  - App.js: routing to the different pages
+  - index.css: global variables and override of semantic ui
+
 ## Available Scripts
 
 In the project directory, you can run:
