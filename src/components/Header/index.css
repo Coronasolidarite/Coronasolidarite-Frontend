@@ -6,3 +6,9 @@
   background: #44bb88;
   color: white;
 }
+
+.csf-navigation-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

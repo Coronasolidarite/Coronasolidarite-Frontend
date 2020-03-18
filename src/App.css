@@ -1,8 +1,9 @@
 .csf-main-container {
-  margin: 3em 0 5em;
+  margin: 1em 0 5em;
 }
 
-.csf-main-container p {
+.csf-main-container p,
+.csf-main-container .ui .message {
   font-size: 1.2rem;
   margin: 2em 0;
 }
