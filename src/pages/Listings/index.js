@@ -12,7 +12,7 @@ export default function Listings() {
       listings.filter(([, , offer, offeredLocation, ,]) => {
         return (
           (!need || offer.includes(need)) &&
-          (!location || location.includes(offeredLocation))
+          (!location || offeredLocation.includes(location))
         );
       }),
     [listings, location, need]
