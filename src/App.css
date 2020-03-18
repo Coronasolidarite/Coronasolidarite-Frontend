@@ -4,6 +4,7 @@
 
 .csf-main-container h1 {
   text-decoration: underline 2px solid var(--csf-secondary-color);
+  font-family: "Raleway", sans-serif;
 }
 
 .csf-main-container p,
