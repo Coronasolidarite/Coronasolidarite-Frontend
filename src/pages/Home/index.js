@@ -58,7 +58,7 @@ export default function() {
         </Segment>
 
         <p>
-        Nous tenons à vous tenir informés que vous seuls êtes tenus responsables de l'utilisation de cette plateforme.
+        Nous vous tenons informés que vous seuls êtes tenus responsables de l'utilisation de cette plateforme.
         Veuillez faire attention - vous êtes en contact avec des étrangers. La sécurité, la fiabilité et la qualité des 
         prestataires ne peuvent être garanties. Veillez également à bien respecter les consignes de sécurité actuellement 
         mises en place ! 
