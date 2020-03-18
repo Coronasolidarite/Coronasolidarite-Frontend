@@ -17,7 +17,7 @@ export default function() {
   return (
     <Container>
       <div className="csf-index">
-        <h1>This is the index page</h1>
+        <h1>Index page</h1>
         <p>
           Mit der Zeit steigen die Zahlen der Infizierten und Hilfsbedürftigen
           an. Menschen, die nicht auf Familie oder Freunde zurückgreifen können,

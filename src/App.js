@@ -1,5 +1,5 @@
 import React from "react";
-import { Index, Listings } from "./pages";
+import { Index, Listings, Contact, Legal, TOU } from "./pages";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Header, Footer } from "./components";
 
@@ -16,6 +16,15 @@ function App() {
           </Route>
           <Route path="/listings">
             <Listings />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/legal">
+            <Legal />
+          </Route>
+          <Route path="/tou">
+            <TOU />
           </Route>
         </Switch>
       </div>
