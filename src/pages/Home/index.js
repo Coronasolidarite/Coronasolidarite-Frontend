@@ -23,7 +23,7 @@ export default function() {
         tous les déplacement à travers le territoire sont fortement réduits. En ces temps difficiles l’esprit de solidarité
         est primordial et nous devons tous en tant que citoyens penser aux plus nécessiteux. Cette page a pour but de mettre 
         en contact les personnes ayant besoin d’aide dans divers domaines (courses, conseil, accompagnement,...) bien entendu dans le 
-        respect des consignes de sécurité et dans le respect de l’esprit de solidarité.N'hésitez pas à partager ce site aussi 
+        respect des consignes de sécurité de l’esprit de solidarité. N'hésitez pas à partager ce site aussi 
         bien à ceux qui seraient susceptibles d’aider la communauté mais aussi qu’à ceux qui en auraient besoin !
 
         </p>
