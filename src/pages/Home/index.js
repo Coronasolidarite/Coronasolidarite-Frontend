@@ -19,13 +19,17 @@ export default function() {
       <div className="csf-index">
         <h1>Index page</h1>
         <p>
-        Compte tenu des nouvelles dispositions gouvernementales face au coronavirus à Paris et dans toute la France,
-        tous les déplacement à travers le territoire sont fortement réduits. En ces temps difficiles l’esprit de solidarité
-        est primordial et nous devons tous en tant que citoyens penser aux plus nécessiteux. Cette page a pour but de mettre 
-        en contact les personnes ayant besoin d’aide dans divers domaines (courses, conseil, accompagnement,...) bien entendu dans le 
-        respect des consignes de sécurité et dans le respect de l’esprit de solidarité.N'hésitez pas à partager ce site aussi 
-        bien à ceux qui seraient susceptibles d’aider la communauté mais aussi qu’à ceux qui en auraient besoin !
-
+          Compte tenu des nouvelles dispositions gouvernementales face au
+          coronavirus à Paris et dans toute la France, tous les déplacement à
+          travers le territoire sont fortement réduits. En ces temps difficiles
+          l’esprit de solidarité est primordial et nous devons tous en tant que
+          citoyens penser aux plus nécessiteux. Cette page a pour but de mettre
+          en contact les personnes ayant besoin d’aide dans divers domaines
+          (courses, conseil, accompagnement,...) bien entendu dans le respect
+          des consignes de sécurité et dans le respect de l’esprit de
+          solidarité.N'hésitez pas à partager ce site aussi bien à ceux qui
+          seraient susceptibles d’aider la communauté mais aussi qu’à ceux qui
+          en auraient besoin !
         </p>
 
         <Segment placeholder>
@@ -49,7 +53,11 @@ export default function() {
                   <Icon name="world" />
                   Solidarité
                 </Header>
-                <Button primary as={Link}>
+                <Button
+                  primary
+                  as="a"
+                  href="https://forms.gle/7Qux5zpG9FiioFUy9"
+                >
                   Offer Help
                 </Button>
               </Grid.Column>

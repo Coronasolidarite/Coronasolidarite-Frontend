@@ -10,7 +10,10 @@ export default function Listings() {
       <Table>
         <Table.Header>
           <Table.HeaderCell>Nom</Table.HeaderCell>
-          <Table.HeaderCell>District</Table.HeaderCell>
+          <Table.HeaderCell>Offre d’aide</Table.HeaderCell>
+          <Table.HeaderCell>Arrondissement(s) / localisation</Table.HeaderCell>
+          <Table.HeaderCell>Option (s) de contact </Table.HeaderCell>
+          <Table.HeaderCell>Information supplémentaire</Table.HeaderCell>
         </Table.Header>
         <Table.Body>
           {listings.map(l => (
