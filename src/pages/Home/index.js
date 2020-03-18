@@ -20,7 +20,7 @@ export default function() {
         <h1>Un réseau d'aide au voisinage à Paris</h1>
         <p>
         Compte tenu des nouvelles dispositions gouvernementales face au coronavirus à Paris et dans toute la France,
-        tous les déplacement à travers le territoire sont fortement réduits. En ces temps difficiles l’esprit de solidarité
+        tous les déplacements à travers le territoire sont fortement réduits. En ces temps difficiles l’esprit de solidarité
         est primordial et nous devons tous en tant que citoyens penser aux plus nécessiteux. Cette page a pour but de mettre 
         en contact les personnes ayant besoin d’aide dans divers domaines (courses, conseil, accompagnement,...) bien entendu dans le 
         respect des consignes de sécurité de l’esprit de solidarité. N'hésitez pas à partager ce site aussi 
