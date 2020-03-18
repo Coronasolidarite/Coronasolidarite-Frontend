@@ -41,7 +41,11 @@ code {
 }
 
 .ui.primary.button:hover,
-.ui.primary.buttons .button:hover {
+.ui.primary.buttons .button:hover,
+.ui.primary.button:active,
+.ui.primary.buttons .button:active,
+.ui.primary.button:focus,
+.ui.primary.buttons .button:focus {
   background-color: var(--csf-primary-color-dark);
 }
 
@@ -51,6 +55,10 @@ code {
 }
 
 .ui.secondary.button:hover,
-.ui.secondary.buttons .button:hover {
+.ui.secondary.buttons .button:hover,
+.ui.secondary.button:active,
+.ui.secondary.buttons .button:active,
+.ui.secondary.button:focus,
+.ui.secondary.buttons .button:focus {
   background-color: var(--csf-dark-secondary-color);
 }
