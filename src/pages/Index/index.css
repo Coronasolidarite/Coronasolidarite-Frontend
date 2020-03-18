@@ -1,5 +1,11 @@
 .csf-index {
-  padding: 0 20%;
+  padding: 3em 20%;
+}
+
+.csf-index-contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 8em;
 }
 
 @media (max-width: 720px) {

@@ -2,6 +2,10 @@
   margin: 1em 0 5em;
 }
 
+.csf-main-container h1 {
+  text-decoration: underline 2px solid var(--csf-secondary-color);
+}
+
 .csf-main-container p,
 .csf-main-container .ui .message {
   font-size: 1.2rem;

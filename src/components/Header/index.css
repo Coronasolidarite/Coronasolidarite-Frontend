@@ -3,7 +3,18 @@
   justify-content: center;
   align-items: center;
   padding: 1em;
-  background: #44bb88;
+  background: var(--csf-primary-color);
+  color: white;
+  border-bottom: 0.5em solid var(--csf-light-secondary-color);
+}
+
+.csf-header-title {
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+  color: white;
+}
+
+.csf-header-title:hover {
   color: white;
 }
 

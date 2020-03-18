@@ -1,8 +1,25 @@
 .csf-footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1em;
-  background: #44bb88;
+  padding: 2em;
+  background: var(--csf-primary-color);
+  color: white;
+  border-top: 0.5em solid var(--csf-light-secondary-color);
+}
+
+.csf-footer-links {
+  max-width: 500px;
+  margin: 1em 0;
+}
+
+.csf-footer-links a {
+  margin: 0 1em;
+  font-size: 1.1em;
+  color: white;
+}
+
+.csf-footer-links a:hover {
   color: white;
 }

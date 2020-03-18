@@ -1,13 +1,15 @@
 import React from "react";
 
 import "./index.css";
-import { Icon } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <div className="csf-navigation">
       <div className="csf-navigation-text">
-        <h1>Corona Solidarité</h1>
+        <Link to="/" className="csf-header-title">
+          Corona Solidarité
+        </Link>
         <span>Help your neighbors</span>
       </div>
     </div>

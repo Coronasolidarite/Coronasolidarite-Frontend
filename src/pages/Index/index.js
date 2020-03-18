@@ -70,8 +70,10 @@ export default function() {
           nachverfolgen, wer nun schlussendlich wem geholfen hat: meldet Euch
           gerne per Mail, da es diesbezüglich Medienanfragen gibt.
         </Message>
-        <div>
-          <Button big>Contact Us</Button>
+        <div className="csf-index-contact">
+          <Button secondary as="a" href="mailto:coronasolidarite@gmail.com">
+            Contact Us
+          </Button>
         </div>
       </div>
     </Container>
