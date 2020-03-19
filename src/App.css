@@ -1,3 +1,9 @@
+.csf-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
 .csf-main-container {
   margin: 1em 0 5em;
 }

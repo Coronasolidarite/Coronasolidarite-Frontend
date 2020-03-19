@@ -8,24 +8,26 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <div className="csf-main-container">
-        <Switch>
-          <Route exact path="/">
-            <Index />
-          </Route>
-          <Route path="/listings">
-            <Listings />
-          </Route>
-          <Route path="/legal">
-            <Legal />
-          </Route>
-          <Route path="/tou">
-            <TOU />
-          </Route>
-        </Switch>
+      <div className="csf-page">
+        <Header />
+        <div className="csf-main-container">
+          <Switch>
+            <Route exact path="/">
+              <Index />
+            </Route>
+            <Route path="/listings">
+              <Listings />
+            </Route>
+            <Route path="/legal">
+              <Legal />
+            </Route>
+            <Route path="/tou">
+              <TOU />
+            </Route>
+          </Switch>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </BrowserRouter>
   );
 }
