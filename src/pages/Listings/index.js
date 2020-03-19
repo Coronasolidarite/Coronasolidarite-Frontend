@@ -22,18 +22,18 @@ export default function Listings() {
       <h1>Liste des offres d'aide</h1>
       <p>
         Les personnes que vous trouvez dans cette liste ont aimablement accepté
-        d'offrir leur aide concernant le virus corona.
+        d'offrir leur aide.
         <br />
         Vous pouvez parcourir la liste sur cette page ou filtrer les entrées en
         utilisant la barre de recherche ci-dessous.
         <br />
-        Si nécessaire, vous pouvez contacter directement l'aide respective.
+        Si nécessaire, vous pouvez contacter directement votre helper via l'option de contact fournie.
         <br />
         Nous vous rappelons qu'afin de vous protéger, mais également afin de
         protéger les personnes au grand coeur qui offrent leur aide, evitez les
         contacts physiques directs, les déplacements non-nécessaires et
-        privilégiez les communications ‘virtuelles’ telles que le telephone /
-        Mail / VoIP (Skype/Discord/Whatsapp)
+        privilégiez les communications ‘virtuelles’ telles que le telephone,
+        mail, VoIP et messagerie instantanée (Skype/Discord/Messenger)
         <br />
       </p>
       <Message>
@@ -44,12 +44,12 @@ export default function Listings() {
       </Message>
       <div className="csf-listings-filter">
         <Select
-          placeholder="Select your need"
+          placeholder="Selectionnez vos besoin"
           options={needOptions}
           onChange={(l, { value }) => setNeed(value)}
         />
         <Select
-          placeholder="Select your location"
+          placeholder="Indiquez votre localisation"
           options={locationOptions}
           onChange={(l, { value }) => setLocation(value)}
         />
@@ -62,8 +62,8 @@ export default function Listings() {
             <Table.HeaderCell>
               Arrondissement(s) / localisation
             </Table.HeaderCell>
-            <Table.HeaderCell>Option (s) de contact </Table.HeaderCell>
-            <Table.HeaderCell>Information supplémentaire</Table.HeaderCell>
+            <Table.HeaderCell>Option(s) de contact </Table.HeaderCell>
+            <Table.HeaderCell>Informations supplémentaires</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
         <Table.Body>
