@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
+import { Icon } from "semantic-ui-react";
 export default function Footer() {
   return (
     <div className="csf-footer">
@@ -10,7 +11,9 @@ export default function Footer() {
         <Link to="/tou">Conditions d'utilisation</Link>
       </div>
       <div>
-        <p>Stay & Save - 2020 Corona Solidarité</p>
+        <p>
+          Stay & Save - 2020 Corona Solidarité <Icon name="heartbeat" />
+        </p>
       </div>
     </div>
   );

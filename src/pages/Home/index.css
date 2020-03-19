@@ -8,12 +8,15 @@
   margin-top: 8em;
 }
 
-.message{
+.message {
   text-align: center;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 765px) {
   .csf-index {
     padding: 0 5%;
+  }
+  .csf-index-vertical-devider {
+    visibility: hidden;
   }
 }

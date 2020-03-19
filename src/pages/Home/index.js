@@ -25,20 +25,22 @@ export default function() {
           l’esprit de solidarité est primordial et nous devons tous en tant que
           citoyens penser aux plus nécessiteux. Cette page a pour but de mettre
           en contact les personnes ayant besoin d’aide dans divers domaines
-          (courses, conseil, soutien moral,...) bien entendu dans le respect
-          des consignes de sécurité. N'hésitez pas à partager ce site aussi bien à ceux qui
-          seraient susceptibles d’aider la communauté mais aussi qu’à ceux qui
-          en auraient besoin !
+          (courses, conseil, soutien moral,...) bien entendu dans le respect des
+          consignes de sécurité. N'hésitez pas à partager ce site aussi bien à
+          ceux qui seraient susceptibles d’aider la communauté mais aussi qu’à
+          ceux qui en auraient besoin !
         </p>
 
         <Segment placeholder>
           <Grid columns={2} stackable textAlign="center">
-            <Divider vertical>Ou</Divider>
+            <Divider vertical className="csf-index-vertical-devider">
+              Ou
+            </Divider>
 
             <Grid.Row verticalAlign="middle">
               <Grid.Column>
                 <Header icon>
-                  <Icon name="search" />
+                  <Icon name="life ring" />
                   Recheche d'assisance
                 </Header>
 
@@ -65,13 +67,14 @@ export default function() {
         </Segment>
 
         <p>
-          Nous tenons à vous informer que vous seuls êtes tenus
-          responsables de l'utilisation de cette plateforme. Veuillez faire
-          attention vous êtes en contact avec des étrangers. La sécurité, la
-          fiabilité et la qualité des prestataires ne peuvent être garanties.
-          Veillez également à bien respecter les consignes de sécurité
-          actuellement mises en place. Evitez donc par conséquent tout contact direct.
-          Privilegiez les moyens tels que le téléphone, mail ou messagerie instantanné/VoIP (Skype, Discord, Messenger) !
+          Nous tenons à vous informer que vous seuls êtes tenus responsables de
+          l'utilisation de cette plateforme. Veuillez faire attention vous êtes
+          en contact avec des étrangers. La sécurité, la fiabilité et la qualité
+          des prestataires ne peuvent être garanties. Veillez également à bien
+          respecter les consignes de sécurité actuellement mises en place.
+          Evitez donc par conséquent tout contact direct. Privilegiez les moyens
+          tels que le téléphone, mail ou messagerie instantanné/VoIP (Skype,
+          Discord, Messenger) !
         </p>
 
         <Message>
