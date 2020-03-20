@@ -29,7 +29,7 @@ export default function() {
           en contact les personnes ayant besoin d’aide dans divers domaines
           (courses, conseil, soutien moral,...) bien entendu dans le respect des
           consignes de sécurité. N'hésitez pas à partager ce site aussi bien à
-          ceux qui seraient susceptibles d’aider la communauté mais aussi qu’à
+          ceux qui seraient susceptibles d’aider la communauté mais aussi à
           ceux qui en auraient besoin !
         </p>
 
