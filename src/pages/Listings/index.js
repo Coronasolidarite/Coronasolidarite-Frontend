@@ -1,8 +1,9 @@
 import React, { useMemo, useState } from "react";
 import { getListings } from "../../services";
-import { Table, Container, Select, Message } from "semantic-ui-react";
+import { Table, Container, Select, Message, Button } from "semantic-ui-react";
 import { needOptions, locationOptions } from "../../config";
 
+import "./index.css";
 const pointers = [1, 2, 3, 4, 5];
 
 export default function Listings() {
@@ -67,6 +68,7 @@ export default function Listings() {
             </Table.HeaderCell>
             <Table.HeaderCell>Option(s) de contact </Table.HeaderCell>
             <Table.HeaderCell>Informations supplémentaires</Table.HeaderCell>
+            <Table.HeaderCell>Signaler un problème</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
         <Table.Body>
@@ -75,6 +77,11 @@ export default function Listings() {
               {pointers.map(p => (
                 <Table.Cell key={l[p]}>{l[p]}</Table.Cell>
               ))}
+              <Table.Cell>
+                <div className="csf-listings-problem-signal">
+                  <Button basic icon="exclamation triangle"></Button>
+                </div>
+              </Table.Cell>
             </Table.Row>
           ))}
         </Table.Body>
