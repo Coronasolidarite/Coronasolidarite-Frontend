@@ -24,7 +24,7 @@ export default function Listings() {
     <Container>
       <h1>Liste des offres d'aide</h1>
       <p>
-        Les personnes que vous trouvez dans cette liste ont aimablement accepté
+        Les personnes que vous trouverez dans cette liste ont aimablement accepté
         d'offrir leur aide.
         <br />
         Vous pouvez parcourir la liste sur cette page ou filtrer les entrées en
