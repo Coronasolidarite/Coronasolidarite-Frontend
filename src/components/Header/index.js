@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Icon, Select } from "semantic-ui-react";
+import { languageOptions } from "../../config";
 
 import "./index.css";
-import { Link } from "react-router-dom";
-import { Icon } from "semantic-ui-react";
 
-export default function Header() {
+export default function Header({ lang, setLang }) {
   return (
     <div className="csf-navigation">
       <div className="csf-navigation-text">

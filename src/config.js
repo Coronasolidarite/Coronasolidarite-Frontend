@@ -1,9 +1,9 @@
 export const needOptions = [
   { key: "all", value: undefined, text: "Tous" },
   {
-    key: "Aide au courses",
-    value: "Aide au courses",
-    text: "Aide au courses"
+    key: "Aide aux courses",
+    value: "Aide aux courses",
+    text: "Aide aux courses"
   },
   {
     key: "Accompagnement personnel",
@@ -41,4 +41,9 @@ export const locationOptions = [
   { key: "18eme", value: "18eme", text: "18eme" },
   { key: "19eme", value: "19eme", text: "19eme" },
   { key: "20eme", value: "20eme", text: "20eme" }
+];
+
+export const languageOptions = [
+  { key: "fr", value: "fr", text: "fr" },
+  { key: "en", value: "en", text: "en" }
 ];

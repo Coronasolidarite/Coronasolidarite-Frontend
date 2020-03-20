@@ -12,7 +12,6 @@ import {
 } from "semantic-ui-react";
 
 import "./index.css";
-import { CatCard } from "../../components";
 
 import paris from "./paris.jpg";
 export default function() {

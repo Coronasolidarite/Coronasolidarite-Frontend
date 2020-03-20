@@ -18,3 +18,9 @@
   font-size: 1.2rem;
   margin: 2em 0;
 }
+
+.csf-navigation-language {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2em;
+}
