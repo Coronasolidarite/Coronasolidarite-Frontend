@@ -21,8 +21,8 @@ function App() {
               options={languageOptions}
               value={lang}
               onChange={(e, { value }) => setLang(value)}
-  />*/}
-          </div>
+  /></div>*/}
+
           <Switch>
             <Route exact path="/">
               <Index {...{ translation }} />
