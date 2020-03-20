@@ -43,7 +43,7 @@ export default function() {
               <Grid.Column>
                 <Header icon>
                   <Icon name="life ring" />
-                  Recheche d'assisance
+                  Recherche d'assistance
                 </Header>
 
                 <Button primary as={Link} to="/listings">
@@ -69,21 +69,22 @@ export default function() {
         </Segment>
 
         <p>
-          Nous tenons à vous informer que vous seuls êtes tenus responsables de
+          Nous tenons à vous informer que vous seul êtes tenu responsables de
           l'utilisation de cette plateforme. Veuillez faire attention vous êtes
           en contact avec des étrangers. La sécurité, la fiabilité et la qualité
           des prestataires ne peuvent être garanties. Veillez également à bien
           respecter les consignes de sécurité actuellement mises en place.
           Evitez donc par conséquent tout contact direct. Privilegiez les moyens
-          tels que le téléphone, mail ou messagerie instantanné/VoIP (Skype,
+          tels que le téléphone, mail ou messagerie instantannée/VoIP (Skype,
           Discord, Messenger) !
         </p>
 
         <Message>
-          Dans le but de venir en aide à un maximum de personnes en difficultés.
-          Si vous disposez d’un moyen de relayer notre plateforme ou si vous
+          Le but est de venir en aide à un maximum de personnes en difficultés.
+          Si vous disposez d’un moyen pour relayer notre plateforme ou si vous
           menez actuellement un projet solidaire en relation avec la situation
-          actuel, n'hésitez pas à nous contacter. <br />
+          actuel, n'hésitez pas à nous contacter.
+          <br />
           <br />
           <i>L’union fait la force ! </i>
           <p>

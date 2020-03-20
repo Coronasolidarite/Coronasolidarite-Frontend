@@ -16,12 +16,12 @@ function App() {
       <div className="csf-page">
         <Header {...{ translation }} />
         <div className="csf-main-container">
-          <div className="csf-navigation-language">
+          {/*<div className="csf-navigation-language">
             <Select
               options={languageOptions}
               value={lang}
               onChange={(e, { value }) => setLang(value)}
-            />
+  />*/}
           </div>
           <Switch>
             <Route exact path="/">

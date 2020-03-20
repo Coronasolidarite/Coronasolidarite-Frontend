@@ -2,14 +2,16 @@ import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
 import { Icon } from "semantic-ui-react";
-export default function Footer({ translation: { contactUs, legal, tou, cat } }) {
+export default function Footer({
+  translation: { contactUs, legal, tou, cat }
+}) {
   return (
     <div className="csf-footer">
       <div className="csf-footer-links">
         <a href="mailto:coronasolidarite@gmail.com">{contactUs}</a>
         <Link to="/legal">{legal}</Link>
         <Link to="/tou">{tou}</Link>
-        <Link to="/cat">Regarder un chat</Link>
+        <Link to="/cat">{cat}</Link>
       </div>
       <div>
         <p>

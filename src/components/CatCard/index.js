@@ -1,12 +1,12 @@
 import React from "react";
 import { Image, Card } from "semantic-ui-react";
 
-export default function CatCard() {
+export default function CatCard({ content }) {
   return (
     <div>
       <Card>
         <Image src="https://cataas.com/cat/gif" alt="a funny cat" />
-        <Card.Content extra>Regarder un chat et garder son calme.</Card.Content>
+        <Card.Content extra>{content}</Card.Content>
       </Card>
     </div>
   );

@@ -24,8 +24,8 @@ export default function Listings() {
     <Container>
       <h1>Liste des offres d'aide</h1>
       <p>
-        Les personnes que vous trouvez dans cette liste ont aimablement accepté
-        d'offrir leur aide.
+        Les personnes que vous trouverez dans cette liste ont aimablement
+        accepté d'offrir leur aide.
         <br />
         Vous pouvez parcourir la liste sur cette page ou filtrer les entrées en
         utilisant la barre de recherche ci-dessous.
@@ -79,7 +79,12 @@ export default function Listings() {
               ))}
               <Table.Cell>
                 <div className="csf-listings-problem-signal">
-                  <Button basic icon="exclamation triangle"></Button>
+                  <Button
+                    basic
+                    icon="exclamation triangle"
+                    as="a"
+                    href="https://forms.gle/gMEn8S6PNcNAqoqz8"
+                  ></Button>
                 </div>
               </Table.Cell>
             </Table.Row>

@@ -3,10 +3,10 @@ import { CatCard } from "../../components";
 
 import "./index.css";
 
-export default function CatPage() {
+export default function CatPage({ translation: { catCardContent } }) {
   return (
     <div className="csf-index-cat-card-container">
-      <CatCard />
+      <CatCard content={catCardContent} />
     </div>
   );
 }

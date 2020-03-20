@@ -44,6 +44,6 @@ export const locationOptions = [
 ];
 
 export const languageOptions = [
-  { key: "fr", value: "fr", text: "fr" },
-  { key: "en", value: "en", text: "en" }
+  { key: "fr", value: "fr", text: "fr" }
+  //{ key: "en", value: "en", text: "en" }
 ];
