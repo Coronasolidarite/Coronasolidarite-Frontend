@@ -9,7 +9,7 @@ export default function Footer() {
         <a href="mailto:coronasolidarite@gmail.com">Contactez-nous</a>
         <Link to="/legal">Mentions légales</Link>
         <Link to="/tou">Conditions d'utilisation</Link>
-        <Link to="/cat">Regarder un chat</Link>
+        <Link to="/cat">Regarder un chat trop mim's !</Link>
       </div>
       <div>
         <p>
