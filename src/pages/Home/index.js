@@ -14,11 +14,13 @@ import {
 import "./index.css";
 import { CatCard } from "../../components";
 
+import paris from "./paris.jpg";
 export default function() {
   return (
     <Container>
       <div className="csf-index">
         <h1>Un réseau d'aide au voisinage à Paris</h1>
+        <img src={paris} alt="Paris" className="csf-index-image" />
         <p>
           Compte tenu des nouvelles dispositions gouvernementales face au
           coronavirus à Paris et dans toute la France, tous les déplacements à

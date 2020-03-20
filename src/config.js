@@ -1,9 +1,9 @@
 export const needOptions = [
   { key: "all", value: undefined, text: "Tous" },
   {
-    key: "Aide au shopping",
-    value: "Aide au shopping",
-    text: "Aide au shopping"
+    key: "Aide au courses",
+    value: "Aide au courses",
+    text: "Aide au courses"
   },
   {
     key: "Accompagnement personnel",

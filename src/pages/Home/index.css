@@ -12,6 +12,10 @@
   text-align: center;
 }
 
+.csf-index-image {
+  width: 100%;
+}
+
 #csf-index-contact-button {
   font-size: 1.5rem;
 }
