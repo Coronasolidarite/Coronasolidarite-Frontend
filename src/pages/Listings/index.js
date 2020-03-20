@@ -3,6 +3,8 @@ import { getListings } from "../../services";
 import { Table, Container, Select, Message } from "semantic-ui-react";
 import { needOptions, locationOptions } from "../../config";
 
+const pointers = [1, 2, 3, 4, 5];
+
 export default function Listings() {
   const listings = useMemo(getListings);
   const [location, setLocation] = useState();
@@ -27,7 +29,8 @@ export default function Listings() {
         Vous pouvez parcourir la liste sur cette page ou filtrer les entrées en
         utilisant la barre de recherche ci-dessous.
         <br />
-        Si nécessaire, vous pouvez contacter directement votre helper via l'option de contact fournie.
+        Si nécessaire, vous pouvez contacter directement votre helper via
+        l'option de contact fournie.
         <br />
         Nous vous rappelons qu'afin de vous protéger, mais également afin de
         protéger les personnes au grand coeur qui offrent leur aide, evitez les
@@ -69,8 +72,8 @@ export default function Listings() {
         <Table.Body>
           {list.map(l => (
             <Table.Row key={l[4]}>
-              {l.map(e => (
-                <Table.Cell key={e}>{e}</Table.Cell>
+              {pointers.map(p => (
+                <Table.Cell key={l[p]}>{l[p]}</Table.Cell>
               ))}
             </Table.Row>
           ))}
