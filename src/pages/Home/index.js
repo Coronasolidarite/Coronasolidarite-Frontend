@@ -92,9 +92,14 @@ export default function() {
           </p>
         </Message>
         <div className="csf-index-contact">
-          <Button secondary as="a" href="mailto:coronasolidarite@gmail.com">
-            Contactez-nous
-          </Button>
+          <Button
+            secondary
+            id="csf-index-contact-button"
+            icon="paper plane"
+            content="Contactez-nous"
+            as="a"
+            href="mailto:coronasolidarite@gmail.com"
+          ></Button>
         </div>
       </div>
     </Container>
