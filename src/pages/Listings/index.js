@@ -6,7 +6,9 @@ import { needOptions, locationOptions } from "../../config";
 import "./index.css";
 const pointers = [1, 2, 3, 4, 5];
 
-export default function Listings() {
+export default function Listings({
+  translation: { listingsTitle, listingsText, listingsMessageText }
+}) {
   const listings = useMemo(getListings);
   const [location, setLocation] = useState();
   const [need, setNeed] = useState();
@@ -22,30 +24,9 @@ export default function Listings() {
   );
   return (
     <Container>
-      <h1>Liste des offres d'aide</h1>
-      <p>
-        Les personnes que vous trouverez dans cette liste ont aimablement
-        accepté d'offrir leur aide.
-        <br />
-        Vous pouvez parcourir la liste sur cette page ou filtrer les entrées en
-        utilisant la barre de recherche ci-dessous.
-        <br />
-        Si nécessaire, vous pouvez contacter directement votre helper via
-        l'option de contact fournie.
-        <br />
-        Nous vous rappelons qu'afin de vous protéger, mais également afin de
-        protéger les personnes au grand coeur qui offrent leur aide, evitez les
-        contacts physiques directs, les déplacements non-nécessaires et
-        privilégiez les communications ‘virtuelles’ telles que le telephone,
-        mail, VoIP et messagerie instantanée (Skype/Discord/Messenger)
-        <br />
-      </p>
-      <Message>
-        Si vous avez des préoccupations telles que la modification ou la
-        suppression de vos données, veuillez contacter
-        coronasolidarite@gmail.com (idéalement via l'option de contact que vous
-        avez donnée)
-      </Message>
+      <h1>{listingsTitle}</h1>
+      {listingsText}
+      <Message>{listingsMessageText}</Message>
       <div className="csf-listings-filter">
         <Select
           placeholder="Selectionnez vos besoin"
